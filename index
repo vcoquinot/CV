@@ -1,0 +1,210 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Marketplace
+Gist
+ @vcoquinot
+ Sign out
+ Watch 0
+  Star 0
+  Fork 0 vcoquinot/portfolio
+ Code  Issues 0  Pull requests 0  Projects 1  Wiki  Settings Insights 
+Branch: master Find file Copy pathportfolio/index2
+89da4b5  16 days ago
+@vcoquinot vcoquinot Update index2
+1 contributor
+RawBlameHistory     
+190 lines (157 sloc)  8.43 KB
+    <!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Candidature Simplon</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="style.css" type="text/css">
+   </head>
+
+  <body id="page-top" data-spy="scroll" data-target=".navbar">
+
+<header>
+
+      <!-- Navigation
+      ================================================== -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#page-top">Valérie Coquinot</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav pull-right">
+            <li class="hidden"><a href="#page-top"></a></li>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#parcours">Parcours</a></li>
+            <li><a href="#realisations">Réalisations</a></li>
+            <li><a href="#hacks">Hacks</a></li>
+            <li><a href="#footer">Contact</a></li>
+          </ul>
+        </div>
+    </div>
+  </nav>
+</header>
+
+
+
+    <!-- Corps de page 
+    ================================================== -->
+    <div class="container-fluid">
+<!--INTRODUCTION6
+========================================================-->
+
+      <div class="jumbotron" id="accueil">
+      <h1 class="text-center"><img src="image/star.jpg" alt="star"> SUPER-HÉROÏNE ? <img src="image/star.jpg" alt="star"></h1>
+        <div class="col-md-1"><img src="image/hero_1.jpg" alt="Wondewoman"></div>
+        <div class="col-md-10 row text-center">
+          <p><strong>Cape, collant, masque et tout le tralala... <br/>Merci, mais non merci !</strong><br/>Je préfère m'identifier à une personne en apparence ordinaire, mais en apparence seulement !<br/> Force de caractère, volonté de fer et sens de l'adaptation, voilà pour moi les caractéristiques du super-héros des temps modernes, celles qui transforment quelqu'un d'ordinaire en une personne EXTRA-ordinaire.</p>
+        </div>  
+        <div class="col-md-1"><img src="image/hero.jpg" alt="Batman"></div>
+      </div>
+      <div class=container id="heros">
+        <div class="col-md-12 row text-center">
+          <h3><strong>Découvrez Bear Grylls ! </strong></h3> 
+          <img src="image/Bear_Grylls.jpg" alt ="Bear Grylls">
+        </div>
+      </div>
+
+  <!-- PARCOURS******PARCOURS part I
+  =========================================================-->
+
+<div class="container" id ="parcours">
+
+        <img class="col-sm-10 col-md-4" src="image/logo_parcours.png" alt="parcours">     
+        <p class="col-sm-12 col-md-7">Ac ne quis a nobis hoc ita dici forte miretur, quod alia quaedam in hoc facultas sit ingeni, neque haec dicendi ratio aut disciplina, ne nos quidem huic uni studio penitus umquam dediti fuimus. Etenim omnes artes, quae ad humanitatem pertinent, habent quoddam commune vinculum, et quasi cognatione quadam inter se continentur.</p>
+      </div>
+      <div class ="col-md-12 row text-center"><img src="image/storyboard.png" alt="BD parcours">
+      </div>
+      <div class="row text-center">
+        <span class="glyphicon glyphicon-menu-bottom"><a href="parcours.html"><h3>CV détaillé</h3><i class="fa fa-arrow-circle-right fa-1x"></i></a></span><!--A VOIR -->
+      </button>
+    </div>
+  </div>
+
+<!-- PARCOURS part II :MOOC******MOOV -->
+
+  <div class="container-fluid" id ="mooc">
+    <div class="row text-center"><img src="image/logo_mooc.jpg" alt="mooc"></a>
+     </div>
+      <div class ="col-md-6">
+        <a href="https://openclassrooms.com/dashboard"><img src="image/OC.jpg" alt="Certifications OpenClassrooms"></a>
+      </div>
+      <div class ="col-md-6"><a href="https://www.codecademy.com/vcoquinot"><img src="image/codecademy.jpg" alt ="Certifications Codecademy"></a>
+      </div>
+     <div class ="col-md-6 mooc"><img src="image/html.png" alt="HTML CSS">
+      </div>
+      <div class ="col-md-6"><img src="image/oc_web.png" alt="Make a website">
+      </div>
+      <div class="col-md-6"><img src="image/html1.png" alt="HTML CSS part I">
+      </div>
+      <div class ="col-md-6"><img src="image/oc_html.png" alt="HTML CSS">
+      </div>
+      <div class ="col-md-6"><img src="image/website.png" alt="Make a website">
+      </div>
+      <div class ="col-md-6"><img src="image/oc_CMS.png" alt="Solutions CMS">
+      </div>
+      <div class ="col-md-6"><img src="image/sql.png" alt="SQL">
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+        <h1 class="text-center">Bienvenue dans notre espace</h1>
+        <img class="col-sm-12 col-md-5" src="assets/img/accueil.jpg" alt="Accueil">     
+        <p class="col-sm-12 col-md-7">Nous sommes spécialisés dans tous types de constructions et nous prenons en charge les projets de A à Z. Vous pouvez nous confier en toute confiance des projets de toutes dimensions, des plus simples aux plus osés. Notre équipe est efficace, réactive et compétente. Nous entretenons toujours un dialogue de tous les instants avec nos clients. Bien qu'à la pointe de notre activité nous pratiquons des prix rigoureux et adaptés à tous les budgets.</p>
+      </div>
+
+      <div class="jumbotron row" id="qui">
+        <h1 class="text-center">Une équipe efficace</h1>
+        <img class="col-sm-12 col-md-5 col-md-push-7" src="assets/img/equipe.jpg" alt="Equipe"> 
+        <p class="col-sm-12 col-md-7 col-md-pull-5">Notre équipe est jeune, experte et motivée. Notre entreprise est certifiée ISO 9001. Nous cherchons en permanence à améliorer la qualité de nos services et nous sommes à l'écoute de nos clients.</p>
+      </div>
+
+      <div class="jumbotron" id="contact">
+        <h1 class="text-center">Un message pour nous ?</h1>
+        <form class="row">
+          <div class="form-group col-lg-4">
+            <input type="email" class="form-control" placeholder="Votre email">
+          </div>
+          <div class="form-group col-lg-8">
+            <textarea class="form-control" rows="3" placeholder="Votre message"></textarea>
+          </div>
+          <div class="form-group col-lg-12">
+            <button type="submit" class="btn btn-default pull-right">Envoyer</button>
+          </div>
+        </form>
+      </div>
+
+    </div>
+
+    <!-- Pied de page
+    ================================================== -->
+    <footer class= "row text-center">
+      <a class="btn btn-default" href="#"><i class="fa fa-twitter fa-2x"></i></a>
+      <a class="btn btn-default" href="#"><i class="fa fa-facebook fa-2x"></i></a>
+      <a class="btn btn-default" href="#"><i class="fa fa-google-plus fa-2x"></i></a>
+      <a class="btn btn-default" href="#"><i class="fa fa-flickr fa-2x"></i></a>
+      <a class="btn btn-default" href="#"><i class="fa fa-spotify fa-2x"></i></a>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Javascript de Bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <script>
+      // Scrollspy fluide
+      $(function () {
+        $('header a').on('click', function(e) {
+          e.preventDefault();
+          var hash = this.hash;
+          $('html, body').animate({
+            scrollTop: $(this.hash).offset().top
+          }, 1000, function(){
+            window.location.hash = hash;
+          });
+        });
+      });
+    </script>
+
+  </body>
+
+</html>
+<!---decouvrez bear grylls <a href=""><i class="fa fa-arrow-circle-right fa-1x"></i></a>-->
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help
