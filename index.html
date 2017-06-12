@@ -1,116 +1,159 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Nataraj Bollywood accueil</title>
-    <html lang="fr">
-  <head>
-    <title>Bootstrap template</title>
+  <title>Portfolio</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-      <!-- Bootstrap core CSS -->
-    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="starter-template.css" rel="stylesheet">
+   
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
 <body>
 
-<!--*******************************************************************************************-->
-<!--HEADER : menu-->
-<nav class="navbar navbar-default navbar-fixed-top" id="navbar">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="index.php">Anne Nataraj</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav pull-right">
-        <li class="active"><a href="index.html">Accueil</a></li>
-        <li><a href="anne.html">Anne</a></li>
-        <li><a href="bollywood.html">Bollywood</a></li>
-        <li><a href="cours.html">Cours & stages</a></li>
-        <li><a href="agenda.html">Agenda</a></li>
-        <li><a href="galerie.html">Galerie</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="membres.html">Membres</a></li>
-      </ul>
-
-
-<!--*******************************************************************************************-->
-<!-- INTRO-->
-  <section class="intro">
-    <div class="row">
-     	<figure class="col-xs-12 col-md-12">
-		    <p><strong>Découvrez le Bollywood.<br/>Laissez-vous entraîner par les couleurs et l'énergie de cette danse indienne.</br>Rejoignez le Centre de Danse Nataraj</strong></p>
-		  </figure>
-	</div>
-</section>
-
-<!-- Image centrale BOOT-->
-
-<!-- Image centrale  en CSS background-image --> 
-  <section class="jumbotron">
-  </section>
-
-        
-      </section>
-</section>
-<!--fin boot-->
-
-
-<!--*******************************************************************************************-->
-<!-- Présentation ANNE-->
-    <section class="intro">
-    <div class="row">
-      <figure class="col-xs-12 col-md-12">
-        <p><strong>Anne, votre professeur de danse Bollywood,<br/> vous propose des cours hebdomadaires pour enfants, ados et adultes,<br/> des stages tout au long de l'année <br/>et la possibilité de vous produire régulièrement sur scène.<br/>La danse bollywood est accessible à tous âges et à tous niveaux.</strong></p>
-      </figure>
-  </div>
-</section>
-
-<!--*******************************************************************************************-->
-<!--4 photos PAGE ACCUEIL-->
-  <section class="container">
-    <div class="row">
-      <figure class="col-md-6">
-        <a class="btn btn-primary" href="anne.php"><strong>Anne Nataraj</strong></a>
-        <img src="photo_anne.jpg" alt="Anne" />
-      </figure>
-      <figure class="col-md-6">
-        <a class="btn btn-primary" href="cours.php"><strong>Planning des cours</strong></a>
-        <img src="photo_anne_3.jpg" alt="Anne" />
-      </figure>
-    </div>
-    <div class="row">
-      <figure class="col-md-6">
-        <a class="btn btn-primary" href="agenda.php"><strong>Événements</strong></a>
-        <img src="photo_rideau.jpg" alt="rideau" />
-      </figure>
-      <figure class="col-md-6">
-      <a class="btn btn-primary" href="https://www.youtube.com/user/NATARAJBOLLYWOOD/videos"><strong>Vidéos</strong></a>
-      <img src="photo_spectacle.jpg" alt="rideau" />
-      </figure>
-      
+<header>
+  <!-- Navigation
+      ================================================== -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+          <a class="navbar-brand" href="#page-top"></a>
+      </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav pull-right">
+            <li class="hidden"><a href="#page-top"></a></li>
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">Qui je suis</a></li>
+            <li><a href="#parcours">Parcours</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
         </div>
-  </section>
+    </div>
+  </nav>
+</header>
 
-<!--*******************************************************************************************-->
-  <!--Footer-->
-<?php include("footer.php"); ?>
+<!-- Titre+ boutons formations
+      ================================================== -->
+    <div id="home" class="container-fluid">
+      <div id="front" class="row">
+        <div class="col-xs-12 col-md-12 row text-center">
+          <h1 class="redressed">Valérie Coquinot</h1>
+            <h2 class="redressed">Développeuse web en devenir...</h2>
+              <a class="btn btn-default hvr-bounce-to-right" href="https://www.freecodecamp.com/vcoquinot" target="_blank" role="button">
+                Codecademy</a>
+              <a class="btn btn-default hvr-bounce-to-right" href="https://openclassrooms.com/dashboard" target="_blank" role="button">
+                Openclassroom</a>
+              <a class="btn btn-default hvr-bounce-to-right" href="https://www.freecodecamp.com/" target="_blank" role="button">FreeCodeCamp</a>
+        </div>
+      </div>
+    </div>
 
-</body>
-</html>
+<!-- About
+      ================================================== -->
+    <div id="about" class="container">
+      <div class="row">
+        <span class="col-sm-12 about">
+          <h1>Qui je suis ?</h1>
+          <img src="id.jpg" class="img-responsive" alt="Valérie Coquinot">
+          <h2></h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          </span>
+      <div class="col-md-12 row text-center">
+          <h2>Compétences :</h2>
+          </div>
+        <div class="col-md-12 row text-center">  
+          
+          <figure class="col-md-2 competences">
+          <img src="html5.png" alt="html5"><!--<i class="fa fa-html5 fa-3x" aria-hidden="true"></i>-->
+          </figure>
+          <figure class="col-md-2 competences"><img src="css3.png" alt="css3">
+          </figure>
+           <figure class="col-md-2 competences">
+           <img src="php.png" alt="php">
+           </figure>
+          <figure class="col-md-2 competences">
+          <img src="bootstrap.png" alt="bootstrap">
+          </figure>
+          <figure class="col-md-2 competences">
+          <img src="mysql.png" alt="MySQL">
+          </figure>
+              <!--<li><i class="fa fa-css3 fa-3x" aria-hidden="true"></i></li>
+              <li><i class="fa fa-html5 fa-3x" aria-hidden="true"></i></li>
+             <li><i class="fa fa-html5 fa-3x" aria-hidden="true"></i></li>-->
+          </div>
+        </div>
+
+    <!-- PARCOURS
+      ================================================== -->
+      <div id="parcours" class="container">
+      </div>
+
+<!-- RÉALISATIONS
+      ================================================== -->
+    <div id="portfolio" class="container">
+      <h1>Mes projets</h1>
+      <div class="row text-center">
+        <div class="col-md-6 portfolio">
+          <figure>
+            <img src="bollywood.png" class="img-responsive"></a>
+          </figure>
+        </div>
+        <div class="col-md-6 portfolio">
+          <figure>
+            <img src="bollywood.png"></a>
+          </figure>
+        </div>
+      </div>
+
+      <div class="row text-center">
+        <div class="col-md-6 portfolio">
+          <figure>
+            <img src="bollywood.png" class="img-responsive"></a><!--<a href="https://s.codepen.io/omiq17/debug/GZpGRN" target="_blank">--><img src="" class="img-responsive"></a>
+          </figure>
+        </div>
+        <div class="col-md-6 portfolio">
+          <figure>
+            <img src="bollywood.png" class="img-responsive"></a><!--<a href="https://s.codepen.io/omiq17/debug/JGVyQz" target="_blank">-->
+          </figure>
+        </div>
+      </div>       
+    </div>
+
+<!-- CONTACT
+      ================================================== -->
+    <div id="contact" class="container">
+      <div class="row">
+        <div class="col-sm-12">
+        <h2>Valérie Coquinot</h2>
+        <p>153, rue Pierre Bon<br>Montpellier</p>
+        <ul class="list-unstyled">
+          <li><i class="fa fa-phone fa-fw"></i>06.70.20.37.37</li>
+          <li><i class="fa fa-envelope-o fa-fw"></i>vcoquinot@gmail.com</li>
+        </ul>
+        <hr class="small">
+        <a class="btn btn-default hvr-bounce-to-right" href="https://github.com/vcoquinot" target="_blank" role="button">
+          <i class="fa fa-github"></i> Github</a>
+        <a class="btn btn-default hvr-bounce-to-right" href="https://www.linkedin.com/in/valerie-coquinot-7ba060129/" target="_blank" role="button">
+          <i class="fa fa-linkedin"></i> LinkedIn</a>
+        <a class="btn btn-default hvr-bounce-to-right" href="https://twitter.com/valeriecoquinot?lang=fr" target="_blank" role="button">
+            <i class="fa fa-twitter"></i> Twitter</a>
+        </div>
+      </div>
+      
+    </div>
