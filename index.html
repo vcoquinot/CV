@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Portfolio</title>
+  <title>CV</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -37,10 +37,9 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav pull-right">
             <li class="hidden"><a href="#page-top"></a></li>
-            <li><a href="#home">Accueil</a></li>
-            <li><a href="#compétences">Compétences</a></li>
+            <li><a href="#accueil">Accueil</a></li>
             <li><a href="#parcours">Parcours</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#projets">Compétences & projets</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
@@ -48,78 +47,79 @@
   </nav>
 </header>
 
-<!-- Titre+ boutons formations
+<!-- ACCUEIL et PRESENTATION
       ================================================== -->
-    <div id="home" class="container-fluid">
-      <div id="title" class="row">
-        <div class="col-xs-12 col-md-12 row text-center">
-          <h1><strong>Valérie Coquinot</strong></h1>
-            <h2><strong>Développeuse web en devenir...</strong></h2>
-            <img src="valerie_coquinot.png" alt="Valérie Coquinot">
-        </div>
-        
+  <div id="accueil" class="container-fluid">
+    <div id="titre" class="row">
+      <div class="col-xs-10 col-sm-12 col-md-12 row text-center">
+        <h1><strong>Valérie Coquinot</strong></h1>
+        <h2><strong>Développeuse web en devenir...</strong></h2>
+        <img src="vcoquinot.png" alt="Valérie Coquinot">
+      </div>
+
+      <div id="mooc" class="col-xs-12 col-sm-12 col-md-12 row text-center">
+        <p>Si j'ai toujours aimé l'informatique,<br/>c'est mon projet de plateforme web de mise en relation qui m'a menée au développement.<br/>Quelques petites lignes de code ont piqué au vif ma curiosité et mon intérêt.<br/> Depuis lors, de Moocs en meetups, je trace mon chemin vers ce nouveau monde !</p>
+        <a class="btn btn-default hvr-bounce-to-right" href="https://www.codecademy.com/vcoquinot" target="_blank" role="button">Codecademy</a>
+        <a class="btn btn-default hvr-bounce-to-right" href="openclass.pdf" target="_blank" role="button"> Openclassrooms</a>
+        <a class="btn btn-default hvr-bounce-to-right" href="https://www.freecodecamp.com/vcoquinot" target="_blank" role="button">FreeCodeCamp</a>   
+        <a class="btn btn-default hvr-bounce-to-right" href="https://github.com/vcoquinot" target="_blank" role="button">Github</a>   
       </div>
     </div>
-
-
-    <!-- COMPETENCES
-      ================================================== -->
-      <div id="compétences" class="container">
-        <h2> Passionnée par le web, c'est en autodidacte<br/>que je développe mes compétences informatiques.</h2> 
-          <img src ="html5.png" alt="html5">
-          <img src ="css3.png" alt="css3">
-          <img src ="php.png" alt="PHP">
-          <img src ="mysql.png" alt="MySQL">
-          <img src ="bootstrap.png" alt="Bootstrap">
-
-        <div id="mooc" class="col-xs-12 col-md-12 row text-center">
-          <h2><strong>Profils MOOCs</strong></h2>
-            <a class="btn btn-default hvr-bounce-to-right" href="https://www.codecademy.com/vcoquinot" target="_blank" role="button">
-            Codecademy</a>
-            <a class="btn btn-default hvr-bounce-to-right" href="openclass.pdf" target="_blank" role="button">
-            Openclassroom</a>
-            <a class="btn btn-default hvr-bounce-to-right" href="https://www.freecodecamp.com/vcoquinot" target="_blank" role="button">FreeCodeCamp</a>
-
-        <div id="compétences_transvers" class="container">
-          <h2><strong>Mes compétences</strong></h2>
-        </div>
-        </div>
-      </div>
+  </div>
 
 <!-- PARCOURS
       ================================================== -->        
-      <div id="parcours" class="container">
-          <h2><strong>Aperçu de mon parcours</strong></h2>
-            <div class="col-md-12 row text-center">
-            <img src ="cv.png" alt="Parcours">
-            </div>
-      </div>
-      </div>
-      </div>
-
-<!-- RÉALISATIONS
-      ================================================== -->
-    <div id="portfolio" class="container">
-      <h1>Mes projets</h1>
-      <div class="row text-center">
-        <div class="col-md-4 portfolio">
-          <figure>
-            <img src="bollywood.png" class="img-responsive"><strong>Site web Anne Nataraj<br/>HTML, CSS, Bootstrap</strong></a>
-          </figure>
-        </div>
-        <div class="col-md-4 portfolio">
-          <figure>
-            <img src="bollywood.png" class="img-responsive">Espace membre<br/>HTML, CSS, PHP</a>
-          </figure>
-        </div>
-        <div class="col-md-4 portfolio">
-          <figure>
-            <img src="bollywood.png" class="img-responsive"><strong><br/></strong></a>
-          </figure>
-        </div>
-      </div>
-   
+  <div id="parcours" class="container-fluid">
+    <div class="col-xs-12 col-sm-6 col-md-6 row text-center">
+      <img src="question.png" alt="question">
+      <h2><strong>Développeur web ?<br/> Parce que...</strong></h2>
+        <ul class="list-unstyled">
+          <li>Se lancer dans un projet, c'est exitant !</li>
+          <li>Se projeter, imaginer des scénarios, c'est stimulant !</li>
+          <li>Coder, c'est prenant !</li>
+          <li>Trouver l'Erreur, c'est miraculeux !</li> 
+          <li>Créer c'est magique !</li>
+        </ul>
+        <a id="cv" class="btn btn-default hvr-bounce-to-right" href="cv.pdf" target="_blank" role="button">Télécharger mon CV</a>
     </div>
+    <div class="col-xs-12 col-sm-6 col-md-6 row text-center">
+      <img src="arrow.png" alt="flêche">
+      <h2 id="bref"><strong>Mon parcours en bref</strong></h2>
+      <img id="bref" src ="parcours.png" alt="Parcours">
+    </div>
+    </div>
+  </div>
+
+
+    <!-- COMPETENCES & PORTFOLIO PROJETS
+      ================================================== -->
+  <div id="projets" class="container">
+    <div id="compétences" class=" row text-center">
+      <h1><strong>Mes compétences</strong></h1>
+      <h2>Au fil de MOOCs et de projets, je développe actuellement les compétences suivantes :</h2> 
+      <img src ="html5.png" alt="html5">
+      <img src ="css3.png" alt="css3">
+      <img src ="php.png" alt="PHP">
+      <img src ="mysql.png" alt="MySQL">
+      <img src ="bootstrap.png" alt="Bootstrap">
+  </div>
+
+  <div id="portfolio" class="container">
+    <h1><strong>Mes projets en cours</strong></h1>
+      <div class="row text-center">
+        <div class="col-xs-6 col-sm-6 col-md-6 portfolio">
+          <figure>
+            <img src="bollywood.png" class="img-responsive">Site web Anne Nataraj<br/>HTML, CSS, Bootstrap</a>
+          </figure>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-6 portfolio">
+          <figure>
+            <img src="membre.png" class="img-responsive">Espace membres<br/>HTML, CSS, PHP</a>
+          </figure>
+        </div>
+      </div>
+  </div>
+  </div>
 
 <!-- CONTACT
       ================================================== -->
@@ -129,8 +129,8 @@
         <h2>Valérie Coquinot</h2>
         <p>153, rue Pierre Bon<br>Montpellier</p>
         <ul class="list-unstyled">
-          <li><i class="fa fa-phone fa-fw"></i>06.70.20.37.37</li>
-          <li><i class="fa fa-envelope-o fa-fw"></i>vcoquinot@gmail.com</li>
+          <li><i class="fa fa-phone fa-fw"></i><strong>06.70.20.37.37</strong></li>
+          <li><i class="fa fa-envelope-o fa-fw"></i><strong>vcoquinot@gmail.com</strong></li>
         </ul>
         <hr class="small">
         <a class="btn btn-default hvr-bounce-to-right" href="https://github.com/vcoquinot" target="_blank" role="button">
