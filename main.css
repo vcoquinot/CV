@@ -1,10 +1,12 @@
 /* GENERAL */
 
+@import url(https://fonts.googleapis.com/css?family=Federo|Redressed);
+
 body {
   font-family: 'Dosis', sans-serif;
 }
 
-h1,h2,h3,h4,h5
+h1,h2,h3,h4,h5,h6
 {
     font-weight: bold;
 }
@@ -70,6 +72,7 @@ section .heading h2
 /* MENU */
 .navbar
 {
+    background: #ffcc58;
     font-size: 12px;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -104,7 +107,15 @@ section .heading h2
 /* ABOUT */
 #accueil
 {
-    background:#f4f9f9;
+    background-image:url(accueil_background.jpg);
+    background-attachment: fixed, scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+
     padding-top: 100px;
     text-align: center;
     color: #000; 
@@ -361,34 +372,3 @@ footer h5
     color: #000;
     font-weight: normal;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
