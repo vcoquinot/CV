@@ -41,13 +41,6 @@ section .heading h2
     margin: 0 auto;
 }
 
-.white-divider
-{
-    width:100px;
-    height: 2px;
-    background: #fff;
-    margin: 0 auto;
-}
 
 /* BOUTONS
 ------------------------------------------*/
