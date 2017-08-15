@@ -4,7 +4,7 @@ body {
   font-family: 'Dosis', sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6
+h1,h2,h3,h4,h5
 {
     font-weight: bold;
 }
@@ -33,6 +33,7 @@ section .heading h2
 {
     text-transform: uppercase;
 }
+
 .blue-divider
 {
     width:100px;
@@ -75,10 +76,12 @@ section .heading h2
     float: none;
     vertical-align: top;
 }
+
 .navbar .navbar-collapse
 {
     text-align: center;
 }
+
 .navbar li a
 {
     color: #000 !important;
@@ -127,7 +130,7 @@ section .heading h2
 }
 
 #reconversion ul li{
-    font-size: 18px;
+  font-size: 18px;
   color:black;
 }
 
