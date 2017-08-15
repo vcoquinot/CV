@@ -101,7 +101,7 @@ section .heading h2
 /* ABOUT */
 #accueil
 {
-    background-image:url(accueil_background.jpg);
+    background-image:url("accueil_background.png");
     background-attachment: fixed, scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
