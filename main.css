@@ -38,11 +38,9 @@ section
 }
 
 
-
 /* MENU */
 
-.navbar
-{
+.navbar{
     background-color: #ffcc58 !important;
     font-size: 12px;
     letter-spacing: 4px;
@@ -50,8 +48,7 @@ section
     font-weight: bold;
 }
 
-.navbar .navbar-nav
-{
+.navbar .navbar-nav{
     display: inline-block;
     float: none;
     vertical-align: top;
@@ -67,24 +64,21 @@ section
     color: #000 !important;
 }
 
-.navbar-nav li a:hover, .navbar-nav li.active a
-{
+.navbar-nav li a:hover, .navbar-nav li.active a{
     background-color: #fff !important;
 }
-.navbar-default .navbar-toggle
-{
+
+.navbar-default .navbar-toggle{
     border-style: none;
 }
 
-#accueil p, #accueil li
-{
+#accueil p, #accueil li{
   font-size:1.225em;
 }
 
 /*------------------------------------------------*/
 /* ABOUT */
-#accueil
-{
+#accueil{
   background-image:url("accueil_background.png");
   background-attachment: fixed, scroll;
   -webkit-background-size: cover;
@@ -94,23 +88,19 @@ section
   min-height: 100vh;
   width: 100%;
 
-  #accueil img
-{
-  padding-top: 20px;
+#accueil img{
+  padding-top: 30px;
 }
 
-#pourquoi, #presentation
-{
-    padding:50px;
+#pourquoi, #presentation{
+  padding:50px;
 }
 
-#presentation p
-{
+#presentation p{
   padding-top: 10px;
 }
 
-#pourquoi ul 
-{
+#pourquoi ul{
   padding-top: 10px;
 }
 
