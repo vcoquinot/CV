@@ -1,151 +1,145 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <title>Valérie Coquinot</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-
-</head>
-
-<body>
-
-<header>
+    <head>
+        <title>Portfolio Valérie Coquinot</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    
+    <header>
   <!-- Navigation
       ================================================== -->
     <body data-spy="scroll" data-target=".navbar" data-offset="60">
-	<nav class="navbar navbar-default navbar-fixed-top" id="navbar">
-    	<div class="container-fluid">
-      		<div class="navbar-header">
-        	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" ">
-          <!--	<span class="sr-only">Toggle navigation</span>-->
-          	<span class="icon-bar"></span>
-          	<span class="icon-bar"></span>
-          	<span class="icon-bar"></span>
-        	</button>
-         	<a class="navbar-brand" href="index.html"></a>
-      		</div>
-        	<div id="myNavbar" class="collapse navbar-collapse">
-          		<ul class="nav navbar-nav pull-right">
-            		<li><a href="#accueil">Accueil</a></li>
-            		<li><a href="#parcours">Parcours &amp CV</a></li>
-            		<li><a href="#projets">Compétences &amp projets</a></li>
-            		<li><a href="#contact">Contact</a></li>
-          		</ul>
-        	</div>
-    	</div>
-  	</nav>
-</header>
-
+        
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#parcours">Parcours</a></li>
+                        <li><a href="#diplomes">Diplômes & compétences</a></li>
+                        <li><a href="#projets">Projets</a></li>
+                        <li><a href="#contact">Contact</a></li> 
+                    </ul>       
+                </div>
+            </div>
+        </nav>
+       
 <!-- ACCUEIL / PRESENTATION
       ================================================== -->
 
-    <section id="accueil" class="container-fluid">
-    	<div class="row">
-    		<div class="col-md-12 row text-center">
-    		<h1><strong>Valérie Coquinot</strong></h1>
-    		<h2><strong>Développeuse en devenir...</strong></h2>
-    		<img src="images/vcoquinot.png" alt="Valérie Coquinot">
-    		</div>
-       		<div id="presentation" class="col-md-7 row text-center">
-    			<h3><strong>Comment j'ai découvert le code ?</strong></h3>
-    			<p>Si j'ai toujours aimé l'informatique,<br/>c'est mon projet de plateforme web de mise en relation qui m'a menée au développement.<br/>Quelques petites lignes de code ont piqué au vif ma curiosité et mon intérêt.<br/> Depuis lors, de Moocs en meetups, je trace mon chemin vers ce nouveau monde !</p> 
-    		</div>
-    		<div id="pourquoi" class ="col-md-4 row text-center">
-    		      <h3><strong>Pourquoi devenir développeuse ?</strong></h3>
-                <ul> 
-                    <li>Se lancer dans un projet, c'est passionnant !</li>
-                    <li>Imaginer, anticiper, c'est stimulant !</li>
-                    <li>Coder, c'est captivant !</li>
-                    <li>Trouver l'Erreur, c'est puissant !</li> 
-                    <li>Créer, c'est fascinant !</li>
-                </ul>
-    		</div>
-  		</div>
-    </section>
-    	
-<!-- PARCOURS
+        <section id="accueil" class="container-fluid">
+            <div class="col-xs-8 col-md-4 profile-picture">
+                <h1><strong>Valérie Coquinot</strong></h1>
+                <h2><strong>Développeuse en devenir...</strong></h2>
+                <img src="images/vcoquinot.png" alt="Valérie Coquinot">           
+            </div>
+
+            <div class="container" id="reconversion">
+                <div class="row">
+                    <div class="col-sm-12">
+                    <p>Si j'ai toujours aimé l'informatique,<br/>c'est mon projet de plateforme web de mise en relation qui m'a menée au développement.<br/>Quelques petites lignes de code ont piqué au vif ma curiosité et mon intérêt.<br/> Depuis lors, de Moocs en meetups, je trace mon chemin vers ce nouveau monde !</p> 
+                        <div class="blue-divider"></div>
+                    <div class="col-sm-12">
+                        <h3><strong>Pourquoi développeuse ?</strong></h3>
+                            <ul class="list-unstyled">
+                                <li>Se lancer dans un projet, c'est passionnant !</li>
+                                <li>Imaginer, anticiper, c'est stimulant !</li>
+                                <li>Coder, c'est captivant !</li>
+                                <li>Trouver l'Erreur, c'est puissant !</li> 
+                                <li>Créer, c'est fascinant !</li>
+                            </ul>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+ <!-- PARCOURS
       ================================================== -->
 
-    <section id="parcours" class="container">
-        <div class="row text-center col-md-3">
-
-
-            <a href="documents/monCV.pdf" target="_blank"><h4>Voir mon CV complet</h4><i class="glyphicon glyphicon-open-file"></i></a>
-        </div>
-
-    	<div class="timeline-header col-md-7 col-md-offset-2 row text-center">
-            <div class="timeline-panel">
-				<ul class="timeline timeline-vertical">
-					<li class="timeline-item">
-						<h4 class="timeline-title">Gestionnaire de plateforme web</h4>
+        <section id="parcours">
+            <div class="heading">
+                <h2>Parcours</h2>
+                <a id="cv" class="btn btn-default hvr-bounce-to-right" href="images/monCV.pdf" target="_blank" role="button">Télécharger mon CV</a>
+            </div>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-badge"><span class="glyphicon glyphicon-briefcase"></span></div>
+                        <div class="timeline-panel-container">
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>CONVICRÉA</h3>
+                                    <h4>Gestionnaire de plateforme web</h4>
+                                    <p class="text-muted"><small class="glyphicon glyphicon-time"></small> 2015-2016</p>
+                                </div>
+                            </div>
+                        </div>
                     </li>
-					<li class="timeline-item">
-                    <small><i class="glyphicon glyphicon-time"> 2015 | 2016</i></small>
-						  <h5 class="timeline-title">CONVICRÉA</h5>	
-                        </li>
-                    </ul>				
-                <div class="timeline-body">
-				    <ul>
-					   <li>Rédaction, intégration de contenus web (CMS Joomla)</li>
-					   <li>Réalisation de supports de communication (logiciel Canva)</li>
-				    </ul>
-                </div>
-                </div>
-			</div>
-			
-            <div class="timeline-header col-md-7 col-md-offset-2 row text-center">
-                <div class="timeline-panel">
-                    <ul class="timeline timeline-vertical">
-                        <li class="timeline-item">
-                            <h4 class="timeline-title">Chargée qualité &amp Conseillère voyages</h4>
-                        </li>
-                        <li class="timeline-item">
-                            <small><i class="glyphicon glyphicon-time"> 2007 | 2014</i></small>
-                            <h5 class="timeline-title">BCD TRAVEL</h5>
-                        </li>
-                    </ul>                 
-                <div class="timeline-body">
-                    <ul>
-                        <li>Vérification de l'application des procédures et politiques voyages</li>
-                        <li>Identification des anomalies et correction des erreurs</li>
-                    </ul>
-                </div>
-                </div>
-            </div>
+                    <li>
+                        <div class="timeline-badge"><span class="glyphicon glyphicon-briefcase"></span></div>
+                        <div class="timeline-panel-container-inverted">
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>BCD TRAVEL</h3>
+                                    <h4>Chargée qualité/conseillère voyages d'affaires</h4>
+                                    <p class="text-muted"><small class="glyphicon glyphicon-time"></small> 2007-2014</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-badge"><span class="glyphicon glyphicon-briefcase"></span></div>
+                        <div class="timeline-panel-container">
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>NOUVELLES FRONTIÈRES</h3>
+                                    <h4>Conseillère voyages loisirs</h4>
+                                    <div class="blue-divider"></div>
+                                    <h4>Seconde d'agence</h4>
+                                    <p class="text-muted"><small class="glyphicon glyphicon-time"></small> 2000-2006</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-badge"><span class="glyphicon glyphicon-briefcase"></span></div>
+                        <div class="timeline-panel-container-inverted">
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>AMBASSADE DE FRANCE<br/>CENTRE CULTUREL</h3>
+                                    <h4>Enseignante FLE</h4>
+                                    <p class="text-muted"><small class="glyphicon glyphicon-time"></small> 1996-1998</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>    
+        </section>
 
-            <div class="timeline-header col-md-7 col-md-offset-2 row text-center">
-                <div class="timeline-panel">
-                    <ul class="timeline timeline-vertical">
-                        <li class="timeline-item">
-                            <h4 class="timeline-title"> Conseillère voyages loisirs</br>Seconde d'agence</h4>
-                        </li>
-                        <li class="timeline-item">
-                            <small><i class="glyphicon glyphicon-time"> 2000 | 2006</i></small>
-                            <h5 class="timeline-title">NOUVELLES FRONTIÈRES</h5>
-                        </li>
-                    </ul>          
-                <div class="timeline-body">
-                    <ul>
-                        <li>Vérification de l'application des procédures et politiques voyages</li>
-                        <li>Identification des anomalies et correction des erreurs</li>
-                    </ul>
-                </div>
-                </div>
-            </div>
-    </section>
 
-    <!-- COMPÉTENCES & PROJETS
+
+<!-- DIPLOMES & COMPÉTENCES
       ================================================== -->
       <!--diplômes-->
-    <section id="projets">
-        <div class="container">
-            <div class="blue-divider"></div>
-                 <h2>Diplômes</h2>
+       <section id="diplomes">
+            <div class="container">
+                <div class="blue-divider"></div>
+                <div class="heading">
+                    <h2>Diplômes</h2>
                 </div>
                 <div class="row">
                     <div class="col-sm-6">
@@ -170,4 +164,94 @@
                 </div>
             </div>
 
+    <!-- compétences-->
+  
+            <div class="container" id="competences">
+                <div class="heading">
+                <h2>Compétences</h2>
+                    <div class="col-xs-12 col-sm-12 col-md-12 row text-center">
+                    <img src ="images/html5.png" alt="html5">
+                    <img src ="images/css3.png" alt="css3">
+                    <img src ="images/php.png" alt="PHP">
+                    <img src ="images/mysql.png" alt="MySQL">
+                    <img src ="images/bootstrap.png" alt="Bootstrap"> 
+                    </div>
+                </div>
+            <div class="container" id="mooc">
+                    <div class="heading">
+                    <p>Au fil de MOOCs et de projets, je développe actuellement les compétences suivantes :</p>
+                    <div class="col-xs-12 col-sm-12 col-md-12 row text-center">
+                    <a class="btn btn-default hvr-bounce-to-right" href="https://www.codecademy.com/vcoquinot" target="_blank" role="button">Codecademy</a>
+                <a class="btn btn-default hvr-bounce-to-right" href="openclass.pdf" target="_blank" role="button"> Openclassrooms</a>
+                <a class="btn btn-default hvr-bounce-to-right" href="https://www.freecodecamp.com/vcoquinot" target="_blank" role="button">FreeCodeCamp</a>   
+                <a class="btn btn-default hvr-bounce-to-right" href="https://www.udemy.com/user/coquinot-valerie/" target="_blank" role="button">Udemy</a> 
+                </div>
+            </div>
+            </div>
+        </section>
 
+  <!-- PROJETS-->
+        
+        <section id="projets">
+            <div class="container">
+                <div class="white-divider"></div>
+                <div class="heading">
+                    <h2>Premiers projets</h2>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <a class="thumbnail" href="https://vcoquinot.github.io/nataraj/" target="_blank">
+                            <img src="images/bollywood.png" alt="Nataraj Bollywood"></a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a class="thumbnail" href="https://vcoquinot.github.io/enviecrea/" target="_blank">
+                        <img src="images/enviecrea.png" alt="Enviecréa"></a>
+                    </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <a class="thumbnail" href="http://endemo.esy.es/" target="_blank">
+                        <img src="images/membre.png" alt="Espace membres"></a>
+                    </div>
+                </div>
+                </div>
+                </div>
+        </section>
+
+<!-- CONTACT
+      ================================================== -->
+        <section id="contact">
+            <div class="container">
+                <div class="heading">
+                    <h2>Contact</h2>
+                </div>
+                <div class="row col-sm-12 row text-center">
+                    <h2>Valérie Coquinot</h2>
+                    <ul class="list-unstyled">
+                        <li></li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i><strong>vcoquinot@gmail.com</strong></li>
+                        <li><i class="fa fa-phone fa-fw"></i><strong>06.70.20.37.37</strong></li>
+                    </ul>
+                    <p>153, rue Pierre Bon<br>Montpellier</p>
+
+                    <a class="btn btn-default hvr-bounce-to-right" href="https://github.com/vcoquinot" target="_blank" role="button">
+                    <i class="fa fa-github"></i> Github</a>
+                    <a class="btn btn-default hvr-bounce-to-right" href="https://www.linkedin.com/in/valerie-coquinot-7ba060129/" target="_blank" role="button">
+                    <i class="fa fa-linkedin"></i> LinkedIn</a>
+                    <a class="btn btn-default hvr-bounce-to-right" href="https://twitter.com/valeriecoquinot?lang=fr" target="_blank" role="button">
+                    <i class="fa fa-twitter"></i> Twitter</a>
+                </div>
+            </div>
+    </section>
+
+<!-- FOOTER
+      ================================================== -->         
+        <footer class="text-center">
+            <a href="#accueil">
+                <span class="glyphicon glyphicon-chevron-up"></span>
+            </a>
+            <h5>© 2017</h5>
+        </footer>
+         
+    </body>
+
+</html>
