@@ -43,7 +43,7 @@ section
 
 .navbar
 {
-    background: #ffcc58;
+    background-color: #ffcc58 !important;
     font-size: 12px;
     letter-spacing: 4px;
     text-transform: uppercase;
