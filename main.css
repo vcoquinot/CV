@@ -247,9 +247,10 @@ section .heading h2
 
 /*CONTACT
 ---------------------------*/
-{
-  #projets{
-    padding-top:20px !important
+.reseaux{
+  margin-top: 100px;
+}
+
 /* FOOTER 
 -------------------------------------------------*/
 footer
